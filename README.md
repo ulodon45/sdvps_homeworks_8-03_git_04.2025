@@ -29,6 +29,10 @@
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
+<img width="1920" height="899" alt="image" src="https://github.com/user-attachments/assets/0a260df8-2e27-4660-b328-4e90e3408955" />
+
+<img width="1730" height="1326" alt="image" src="https://github.com/user-attachments/assets/b5710e47-cc55-49a8-b782-7a554b104e67" />
+
 ---
 
 ### Задание 3
@@ -41,5 +45,9 @@
 1. Загрузите файл в репозиторий с помощью jenkins.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
+
+<img width="1853" height="745" alt="image" src="https://github.com/user-attachments/assets/b1bb4ffe-9568-417f-8453-053257ce2d9b" />
+
+<img width="1853" height="745" alt="image" src="https://github.com/user-attachments/assets/27e286c7-01a1-4bc5-bb8b-a60ffdd43b01" />
 
 ---
