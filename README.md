@@ -5,22 +5,14 @@
 
 **Что нужно сделать:**
 
-1. Зарегистрируйте аккаунт на [GitHub](https://github.com/).
-1. Создайте  **новый отдельный публичный репозиторий**. Обязательно поставьте галочку в поле «Initialize this repository with a README».
-2. Склонируйте репозиторий, используя https протокол `git clone ...`.
-3. Перейдите в каталог с клоном репозитория.
-1. Произведите первоначальную настройку Git, указав своё настоящее имя и email: `git config --global user.name` и `git config --global user.email johndoe@example.com`.
-1. Выполните команду `git status` и запомните результат.
-1. Отредактируйте файл README.md любым удобным способом, переведя файл в состояние Modified.
-1. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага.
-1. Посмотрите изменения в файле README.md, выполнив команды `git diff` и `git diff --staged`.
-1. Переведите файл в состояние staged или, как говорят, добавьте файл в коммит, командой `git add README.md`.
-1. Ещё раз выполните команды `git diff` и `git diff --staged`.
-1. Теперь можно сделать коммит `git commit -m 'First commit'`.
-1. Сделайте `git push origin master`.
+1. Установите себе jenkins по инструкции из лекции или любым другим способом из официальной документации. Использовать Docker в этом задании нежелательно.
+2. Установите на машину с jenkins [golang](https://golang.org/doc/install).
+3. Используя свой аккаунт на GitHub, сделайте себе форк [репозитория](https://github.com/netology-code/sdvps-materials.git). В этом же репозитории находится [дополнительный материал для выполнения ДЗ](https://github.com/netology-code/sdvps-materials/blob/main/CICD/8.2-hw.md).
+3. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта ```go test .``` и  ```docker build .```.
 
-В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
-[https://github.com/ulodon45/hw-git-8-03](https://github.com/ulodon45/hw-git-8-03/commit/3077283a5383cbe2201eb51c482010f0cdf84164)
+В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
+<img width="2027" height="1273" alt="image" src="https://github.com/user-attachments/assets/113e98c0-0eed-42b6-b3cc-3e99afa87947" />
+
 ---
 
 ### Задание 2
